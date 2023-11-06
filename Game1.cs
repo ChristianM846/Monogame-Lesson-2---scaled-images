@@ -64,6 +64,7 @@ namespace Monogame_Lesson_2___scaled_images
             spriteBatch.Draw(rectangleTexture, new Rectangle(395, 115, 10, 20), Color.White);
             spriteBatch.Draw(rectangleTexture, new Rectangle(410, 115, 10, 20), Color.White);
 
+
             spriteBatch.End();
             base.Draw(gameTime);
         }
